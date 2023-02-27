@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-    <h3 align="center">Laporan Hasil Pembayaran</h3>
+    <h3 align="center">Laporan Hasil Pengaduan</h3>
     <table class="table align-items-center mt-4 mb-0">
         <thead>
             <tr>

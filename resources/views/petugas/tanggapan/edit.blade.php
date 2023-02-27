@@ -9,13 +9,13 @@
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Approve Pengaduan</h4>
-                        <a href="{{ route('historyadmin') }}" class="btn btn-primary">
+                        <a href="{{ route('tanggapan2.index') }}" class="btn btn-primary">
                             <span>Kembali</span>
                         </a>
                     </div>
                     <div class="card-body">
                         <div class="form-validation">
-                            <form class="needs-validation" action="{{ route('adminapprove',$tanggapan->id) }}" method="POST"
+                            <form class="needs-validation" action="{{ route('approve',$tanggapan->id) }}" method="POST"
                             enctype="multipart/form-data">
                             @csrf
 
